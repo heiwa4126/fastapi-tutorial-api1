@@ -23,3 +23,16 @@
 # powershell
 ./dev.ps1
 ```
+
+最初のテストは
+
+```bash
+curl http://127.0.0.1:8000
+```
+
+ドキュメントは
+
+- [FastAPI - Swagger UI](http://127.0.0.1:8000/docs)
+- [FastAPI \- ReDoc](http://127.0.0.1:8000/redoc)
+
+OpenAPIは <http://127.0.0.1:8000/openapi.json> で取れる。
